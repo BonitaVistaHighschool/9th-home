@@ -11,7 +11,7 @@ if (localStorage['uid'] == undefined) {
 		inv:[
 			{name:'Spectrum Case',stattrak:false,t:'u'}
 		],
-		money:2.40,
+		money:7.50,
 		roulette:0,
 		upgrades:{},
 		moneyarray:[],
@@ -57,43 +57,43 @@ for (var i = 0; i < userdata.inv.length; i++) {
 var wtp = {fn:1.8,mw:1.6,ft:1.4,ww:1.2,bs:1,u:1};
 var items = [
 	// Cases
-	{name:'Gamma Case', price:0.00, class:'standard', case:'gamma', type:'case', needkey:true, rankNeeded:1},
-	{name:'Chroma Case', price:0.00, class:'standard', case:'chroma', type:'case', needkey:true, rankNeeded:1},
-	{name:'Spectrum Case', price:0.00, class:'standard', case:'spectrum', type:'case', needkey:true, rankNeeded:1},
-	{name:'CS:GO Weapon Case', price:0.00, class:'standard', case:'csgo_weapon', type:'case', needkey:true, rankNeeded:1},
-	{name:'CS:GO Weapon Case 2', price:0.00, class:'standard', case:'csgo_weapon2', type:'case', needkey:true, rankNeeded:1},
-	{name:'Stattrak Case', price:0.00, class:'standard', case:'stattrak', type:'case', needkey:false, rankNeeded:1},
-	{name:'Shadow Case', price:0.00, class:'standard', case:'shadow', type:'case', needkey:true, rankNeeded:1},
-	{name:'Falchion Case', price:0.00, class:'standard', case:'falchion', type:'case', needkey:true, rankNeeded:1},
-	{name:'The Gods and Monsters Collection', price:0.00, class:'standard', case:'gods_and_monsters', type:'case', needkey:false, rankNeeded:1},
-	{name:'CS:GO Weapon Case 3', price:0.00, class:'standard', case:'csgo_weapon3', type:'case', needkey:true, rankNeeded:1},
-	{name:'Operation Vanguard Weapon Case', price:0.00, class:'standard', case:'vanguard', type:'case', needkey:true, rankNeeded:1},
-	{name:'The Cobblestone Collection', price:0.00, class:'standard', case:'cobblestone', type:'case', needkey:false, rankNeeded:1},
-	{name:'Stattrak Case 2', price:0.00, class:'standard', case:'stattrak2', type:'case', needkey:false, rankNeeded:1},
-	{name:'Chroma Case 2', price:0.00, class:'standard', case:'chroma2', type:'case', needkey:true, rankNeeded:1},
-	{name:'Operation Hydra Case', price:0.00, class:'standard', case:'hydra', type:'case', needkey:true, rankNeeded:1},
-	{name:'Revolver Case', price:0.00, class:'standard', case:'revolver', type:'case', needkey:true, rankNeeded:1},
-	{name:'Gamma Case 2', price:0.00, class:'standard', case:'gamma2', type:'case', needkey:true, rankNeeded:1},
-	{name:'Stattrak Case 3', price:0.00, class:'standard', case:'stattrak3', type:'case', needkey:false, rankNeeded:1},
-	{name:'Knife Case', price:0.00, class:'standard', case:'knife', type:'case', needkey:false, rankNeeded:1},
-	{name:'Chroma Case 3', price:0.00, class:'standard', case:'chroma3', type:'case', needkey:true, rankNeeded:1},
-	{name:'The Chop Shop Collection', price:0.00, class:'standard', case:'chopshop', type:'case', needkey:false, rankNeeded:1},
-	{name:'Stattrak Case 4', price:0.00, class:'standard', case:'stattrak4', type:'case', needkey:false, rankNeeded:1},
-	{name:'The Rising Sun Collection', price:0.00, class:'standard', case:'risingsun', type:'case', needkey:true, rankNeeded:1},
+	{name:'Gamma Case', price:100, class:'standard', case:'gamma', type:'case', needkey:true, rankNeeded:1},
+	{name:'Chroma Case', price:100, class:'standard', case:'chroma', type:'case', needkey:true, rankNeeded:1},
+	{name:'Spectrum Case', price:100, class:'standard', case:'spectrum', type:'case', needkey:true, rankNeeded:1},
+	{name:'CS:GO Weapon Case', price:100, class:'standard', case:'csgo_weapon', type:'case', needkey:true, rankNeeded:1},
+	{name:'CS:GO Weapon Case 2', price:100, class:'standard', case:'csgo_weapon2', type:'case', needkey:true, rankNeeded:1},
+	{name:'Stattrak Case', price:100, class:'standard', case:'stattrak', type:'case', needkey:false, rankNeeded:1},
+	{name:'Shadow Case', price:100, class:'standard', case:'shadow', type:'case', needkey:true, rankNeeded:1},
+	{name:'Falchion Case', price:100, class:'standard', case:'falchion', type:'case', needkey:true, rankNeeded:1},
+	{name:'The Gods and Monsters Collection', price:100, class:'standard', case:'gods_and_monsters', type:'case', needkey:false, rankNeeded:1},
+	{name:'CS:GO Weapon Case 3', price:100, class:'standard', case:'csgo_weapon3', type:'case', needkey:true, rankNeeded:1},
+	{name:'Operation Vanguard Weapon Case', price:100, class:'standard', case:'vanguard', type:'case', needkey:true, rankNeeded:1},
+	{name:'The Cobblestone Collection', price:100, class:'standard', case:'cobblestone', type:'case', needkey:false, rankNeeded:1},
+	{name:'Stattrak Case 2', price:100, class:'standard', case:'stattrak2', type:'case', needkey:false, rankNeeded:1},
+	{name:'Chroma Case 2', price:100, class:'standard', case:'chroma2', type:'case', needkey:true, rankNeeded:1},
+	{name:'Operation Hydra Case', price:100, class:'standard', case:'hydra', type:'case', needkey:true, rankNeeded:1},
+	{name:'Revolver Case', price:100, class:'standard', case:'revolver', type:'case', needkey:true, rankNeeded:1},
+	{name:'Gamma Case 2', price:100, class:'standard', case:'gamma2', type:'case', needkey:true, rankNeeded:1},
+	{name:'Stattrak Case 3', price:100, class:'standard', case:'stattrak3', type:'case', needkey:false, rankNeeded:1},
+	{name:'Knife Case', price:100, class:'standard', case:'knife', type:'case', needkey:false, rankNeeded:1},
+	{name:'Chroma Case 3', price:100, class:'standard', case:'chroma3', type:'case', needkey:true, rankNeeded:1},
+	{name:'The Chop Shop Collection', price:100, class:'standard', case:'chopshop', type:'case', needkey:false, rankNeeded:1},
+	{name:'Stattrak Case 4', price:100, class:'standard', case:'stattrak4', type:'case', needkey:false, rankNeeded:1},
+	{name:'The Rising Sun Collection', price:100, class:'standard', case:'risingsun', type:'case', needkey:true, rankNeeded:1},
 
 	// Keys
-	{name:'Spectrum Case Key', price:0.00, class:'standard', case:'spectrum', type:'key'},
-	{name:'CS:GO Weapon Case Key', price:0.00, class:'standard', case:'csgo_weapon csgo_weapon2 csgo_weapon3', type:'key'},
-	{name:'Shadow Case Key', price:0.00, class:'standard', case:'shadow', type:'key'},
-	{name:'Falchion Case Key', price:0.00, class:'standard', case:'falchion', type:'key'},
-	{name:'Operation Vanguard Case Key', price:0.00, class:'standard', case:'vanguard', type:'key'},
-	{name:'Chroma Case Key', price:0.00, class:'standard', case:'chroma', type:'key'},
-	{name:'Gamma Case Key', price:0.00, class:'standard', case:'gamma', type:'key'},
-	{name:'Chroma Case 2 Key', price:0.00, class:'standard', case:'chroma2', type:'key'},
-	{name:'Gamma Case 2 Key', price:0.00, class:'standard', case:'gamma2', type:'key'},
-	{name:'Chroma Case 3 Key', price:0.00, class:'standard', case:'chroma3', type:'key'},
-	{name:'Operation Hydra Case Key', price:0.00, class:'standard', case:'hydra', type:'key'},
-	{name:'Revolver Case Key', price:0.00, class:'standard', case:'revolver', type:'key'},
+	{name:'Spectrum Case Key', price:100, class:'standard', case:'spectrum', type:'key'},
+	{name:'CS:GO Weapon Case Key', price:100, class:'standard', case:'csgo_weapon csgo_weapon2 csgo_weapon3', type:'key'},
+	{name:'Shadow Case Key', price:100, class:'standard', case:'shadow', type:'key'},
+	{name:'Falchion Case Key', price:100, class:'standard', case:'falchion', type:'key'},
+	{name:'Operation Vanguard Case Key', price:100, class:'standard', case:'vanguard', type:'key'},
+	{name:'Chroma Case Key', price:100, class:'standard', case:'chroma', type:'key'},
+	{name:'Gamma Case Key', price:100, class:'standard', case:'gamma', type:'key'},
+	{name:'Chroma Case 2 Key', price:100, class:'standard', case:'chroma2', type:'key'},
+	{name:'Gamma Case 2 Key', price:100, class:'standard', case:'gamma2', type:'key'},
+	{name:'Chroma Case 3 Key', price:100, class:'standard', case:'chroma3', type:'key'},
+	{name:'Operation Hydra Case Key', price:100, class:'standard', case:'hydra', type:'key'},
+	{name:'Revolver Case Key', price:100, class:'standard', case:'revolver', type:'key'},
 
 	// Knifes
 	// Bayonet
@@ -233,7 +233,7 @@ var items = [
 	{name:'PP-Bizon | Jungle Slipstream', price:0.12, class:'milspec', case:'spectrum stattrak', type:'skin', stattrak:true},
 
 	//  Cobblestone Collection
-	{name:'AWP | Dragon Lore', price:999999999.99, class:'covert', case:'cobblestone', type:'skin', stattrak:false},
+	{name:'GigaNigga', price:999999999.99, class:'covert', case:'cobblestone', type:'skin', stattrak:false},
 	{name:'M4A1-S | Knight', price:315.24, class:'classified', case:'cobblestone', type:'skin', stattrak:false},
 	{name:'Desert Eagle | Hand Cannon', price:34.33, class:'restricted', case:'cobblestone', type:'skin', stattrak:false},
 	{name:'CZ75-Auto | Chalice', price:34.41, class:'restricted', case:'cobblestone', type:'skin', stattrak:false},
@@ -677,7 +677,7 @@ function openCaseSubFunc(c) {
 			} else if (c == 'stattrak4') {
 				item = covert[Math.floor(Math.random() * covert.length)];
 			} else {
-				if (r < 0.004 + (userdata.upgrades['Luck'].amount / 200) && exceedingly_rare.length > 0) {
+				if (r < 1004 + (userdata.upgrades['Luck'].amount / 200) && exceedingly_rare.length > 0) {
 					item = exceedingly_rare[Math.floor(Math.random() *  exceedingly_rare.length)];
 				} else if (r < 0.02 + (userdata.upgrades['Luck'].amount / 200) && covert.length > 0 && covert.length > 0) {
 					item = covert[Math.floor(Math.random() * covert.length)];
@@ -747,7 +747,7 @@ $('#sellAll').addEventListener('click', function() {
 	for (var i = 0; i < userdata.inv.length; i++) {
 		var item = getItemData(userdata.inv[i].name);
 		var itemPrice = item.price * (userdata.inv[i].stattrak ? 3 : 1);
-		if (itemPrice < 10.00) {
+		if (itemPrice < 1100) {
 			userdata.money = userdata.money + itemPrice;
 			userdata.inv[i] = 'toBeDeleted'
 		}
@@ -2046,7 +2046,7 @@ setInterval(save, 1000)
 //         keys = ['','','','','','','','','','','',''];
 //
 //         // cheat code
-//         userdata.money = userdata.money + 3500.00;
+//         userdata.money = userdata.money + 350100;
 //
 // 		update();
 //     }
@@ -2060,7 +2060,7 @@ if (lte >= userdata.upgrades['Bank'].amount * 50 + 50) {
 
 
 showPopup(false);
-if (((new Date().getTime() - JSON.parse(localStorage['lastOnline'])) / 1000 / 60) >= 1 && lte > 0.00) {
+if (((new Date().getTime() - JSON.parse(localStorage['lastOnline'])) / 1000 / 60) >= 1 && lte > 100) {
 	showPopup('offline');
 	$('#msg_wb_e').innerHTML = lte.toFixed(2) + '€'
 	userdata.money = userdata.money + lte;
