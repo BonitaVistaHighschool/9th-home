@@ -50,8 +50,8 @@ for (var i = 0; i < userdata.inv.length; i++) {
 	}
 	if (userdata.inv[i].name == 'Gods and Monsters Collection') {
 		userdata.inv[i].name = 'The Gods and Monsters Collection';
-	} else if (userdata.inv[i].name == 'Cobblestone Collection') {
-		userdata.inv[i].name = 'The Cobblestone Collection';
+	} else if (userdata.inv[i].name == 'The Butt Fuck Collection') {
+		userdata.inv[i].name = 'The The Butt Fuck Collection';
 	}
 }
 var wtp = {fn:1.8,mw:1.6,ft:1.4,ww:1.2,bs:1,u:1};
@@ -68,7 +68,7 @@ var items = [
 	{name:'The Gods and Monsters Collection', price:100, class:'standard', case:'gods_and_monsters', type:'case', needkey:false, rankNeeded:1},
 	{name:'CS:GO Weapon Case 3', price:100, class:'standard', case:'csgo_weapon3', type:'case', needkey:true, rankNeeded:1},
 	{name:'Operation Vanguard Weapon Case', price:100, class:'standard', case:'vanguard', type:'case', needkey:true, rankNeeded:1},
-	{name:'The Cobblestone Collection', price:100, class:'standard', case:'cobblestone', type:'case', needkey:false, rankNeeded:1},
+	{name:'The Butt Fuck Case', price:100, class:'standard', case:'The Butt Fuck', type:'case', needkey:false, rankNeeded:1},
 	{name:'Stattrak Case 2', price:100, class:'standard', case:'stattrak2', type:'case', needkey:false, rankNeeded:1},
 	{name:'Chroma Case 2', price:100, class:'standard', case:'chroma2', type:'case', needkey:true, rankNeeded:1},
 	{name:'Operation Hydra Case', price:100, class:'standard', case:'hydra', type:'case', needkey:true, rankNeeded:1},
@@ -232,22 +232,22 @@ var items = [
 	{name:'MP7 | Akoben', price:0.11, class:'milspec', case:'spectrum stattrak', type:'skin', stattrak:true},
 	{name:'PP-Bizon | Jungle Slipstream', price:0.12, class:'milspec', case:'spectrum stattrak', type:'skin', stattrak:true},
 
-	//  Cobblestone Collection
-	{name:'GigaNigga', price:999999999.99, class:'covert', case:'cobblestone', type:'skin', stattrak:false},
-	{name:'M4A1-S | Knight', price:315.24, class:'classified', case:'cobblestone', type:'skin', stattrak:false},
-	{name:'Desert Eagle | Hand Cannon', price:34.33, class:'restricted', case:'cobblestone', type:'skin', stattrak:false},
-	{name:'CZ75-Auto | Chalice', price:34.41, class:'restricted', case:'cobblestone', type:'skin', stattrak:false},
-	{name:'P2000 | Chainmail', price:4.93, class:'milspec', case:'cobblestone', type:'skin', stattrak:false},
-	{name:'MP9 | Dark Age', price:4.67, class:'milspec', case:'cobblestone', type:'skin', stattrak:false},
-	{name:'USP-S | Royal Blue', price:0.60, class:'industrial', case:'cobblestone', type:'skin', stattrak:false},
-	{name:'MAG-7 | Silver', price:0.55, class:'industrial', case:'cobblestone', type:'skin', stattrak:false},
-	{name:'Nova | Green Apple', price:0.50, class:'industrial', case:'cobblestone', type:'skin', stattrak:false},
-	{name:'Sawed-Off | Rust Coat', price:0.53, class:'industrial', case:'cobblestone', type:'skin', stattrak:false},
-	{name:'UMP-45 | Indigo', price:0.09, class:'consumer', case:'cobblestone', type:'skin', stattrak:false},
-	{name:'MAC-10 | Indigo', price:0.09, class:'consumer', case:'cobblestone', type:'skin', stattrak:false},
-	{name:'P90 | Storm', price:0.09, class:'consumer', case:'cobblestone', type:'skin', stattrak:false},
-	{name:'SCAR-20 | Storm', price:0.09, class:'consumer', case:'cobblestone', type:'skin', stattrak:false},
-	{name:'Dual Berettas | Briar', price:0.11, class:'consumer', case:'cobblestone', type:'skin', stattrak:false},
+	//  The Butt Fuck Collection
+	{name:'GigaNigga', price:999999999.99, class:'covert', case:'The Butt Fuck', type:'skin', stattrak:false},
+	{name:'M4A1-S | Knight', price:315.24, class:'classified', case:'The Butt Fuck', type:'skin', stattrak:false},
+	{name:'Desert Eagle | Hand Cannon', price:34.33, class:'restricted', case:'The Butt Fuck', type:'skin', stattrak:false},
+	{name:'CZ75-Auto | Chalice', price:34.41, class:'restricted', case:'The Butt Fuck', type:'skin', stattrak:false},
+	{name:'P2000 | Chainmail', price:4.93, class:'milspec', case:'The Butt Fuck', type:'skin', stattrak:false},
+	{name:'MP9 | Dark Age', price:4.67, class:'milspec', case:'The Butt Fuck', type:'skin', stattrak:false},
+	{name:'USP-S | Royal Blue', price:0.60, class:'industrial', case:'The Butt Fuck', type:'skin', stattrak:false},
+	{name:'MAG-7 | Silver', price:0.55, class:'industrial', case:'The Butt Fuck', type:'skin', stattrak:false},
+	{name:'Nova | Green Apple', price:0.50, class:'industrial', case:'The Butt Fuck', type:'skin', stattrak:false},
+	{name:'Sawed-Off | Rust Coat', price:0.53, class:'industrial', case:'The Butt Fuck', type:'skin', stattrak:false},
+	{name:'UMP-45 | Indigo', price:0.09, class:'consumer', case:'The Butt Fuck', type:'skin', stattrak:false},
+	{name:'MAC-10 | Indigo', price:0.09, class:'consumer', case:'The Butt Fuck', type:'skin', stattrak:false},
+	{name:'P90 | Storm', price:0.09, class:'consumer', case:'The Butt Fuck', type:'skin', stattrak:false},
+	{name:'SCAR-20 | Storm', price:0.09, class:'consumer', case:'The Butt Fuck', type:'skin', stattrak:false},
+	{name:'Dual Berettas | Briar', price:0.11, class:'consumer', case:'The Butt Fuck', type:'skin', stattrak:false},
 
 	//  CS:GO Weapon Case
 	{name:'AWP | Lightning Strike', price:56.90, class:'covert', case:'csgo_weapon stattrak4', type:'skin', stattrak:true},
@@ -588,7 +588,7 @@ function openCaseSubFunc(c) {
 	var checkKey = false;
 	var keyLocal = false;
 
-	if (c == 'cobblestone' || c == 'knife' || c == 'gods_and_monsters' || c == 'stattrak' || c == 'stattrak2' || c == 'stattrak3' || c == 'stattrak4' || c == 'chopshop' || c == 'risingsun') {
+	if (c == 'The Butt Fuck' || c == 'knife' || c == 'gods_and_monsters' || c == 'stattrak' || c == 'stattrak2' || c == 'stattrak3' || c == 'stattrak4' || c == 'chopshop' || c == 'risingsun') {
 		checkKey = 2;
 	}
 
